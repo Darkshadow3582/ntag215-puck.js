@@ -1,18 +1,15 @@
 .well.well-sm.slot
   .slot-title=slot + 1
   .slot-summary
-    if uid
+    if name
       div
-        b="UID: "
-        span=uid
+      font size="5"
+        b="Name: "
+        span=name
     if id
       div
         b="ID: "
         span=id
-    if name
-      div
-        b="Name: "
-        span=name
     if gameseries
       div
         b="Game Series: "
