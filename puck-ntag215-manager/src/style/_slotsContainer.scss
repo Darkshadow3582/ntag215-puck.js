@@ -18,24 +18,15 @@
     padding: 0;
 
     li {
-      //display: inline-block;
-      background-color: #4CAF50; /* Green */
-      border: none;
-      color: white;
-      padding: 10px 25px;
-      border-radius: 12px;
-      text-align: center;
-      text-decoration: none;
       display: inline-block;
-      font-size: 16px;
 
       &:before {
-        content: " ";
+        content: " | ";
         padding: 0 0.5em;
       }
 
       &:first-child:before {
-        content: " ";
+        content: "";
         padding: 0;
       }
     }
