@@ -3,9 +3,18 @@
 
   .slot-title {
     //display: inline-block;
-    font-size: 2em;
-    font-weight: bold;
-    text-align: right;
+   // font-size: 2em;
+   // font-weight: bold;
+   // text-align: right;
+   background-color: #4CAF50; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: right;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 12px;
 
     &:before {
       content: "Slot ";
@@ -21,7 +30,7 @@
       display: inline-block;
 
       &:before {
-        content: " | ";
+        content: "| ";
         padding: 0 0.5em;
       }
 
