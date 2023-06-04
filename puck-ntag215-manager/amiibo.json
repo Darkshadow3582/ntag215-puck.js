@@ -1007,6 +1007,22 @@
       }, 
       "tail": "03500902", 
       "type": "Figure"
+    },
+    {
+      "amiiboSeries": "Legend Of Zelda", 
+      "character": "Link", 
+      "gameSeries": "The Legend of Zelda", 
+      "head": "01000000",
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_01000000-04180902.png", 
+      "name": "Link - Tears of the Kingdom", 
+      "release": {
+        "au": "2023-05-12", 
+        "eu": "2023-05-12", 
+        "jp": "2023-05-12", 
+        "na": "2023-05-12"
+      }, 
+      "tail": "04180902",
+      "type": "Figure"
     }, 
     {
       "amiiboSeries": "Super Smash Bros.", 
@@ -9585,7 +9601,7 @@
       "type": "Figure"
     }, 
     {
-      "amiiboSeries": "Splatoon", 
+      "amiiboSeries": "Splatoon 2", 
       "character": "Inkling", 
       "gameSeries": "Splatoon", 
       "head": "08000100", 
@@ -9614,22 +9630,6 @@
         "na": "2018-12-07"
       }, 
       "tail": "03820002", 
-      "type": "Figure"
-    }, 
-    {
-      "amiiboSeries": "Splatoon", 
-      "character": "Inkling", 
-      "gameSeries": "Splatoon", 
-      "head": "08000100", 
-      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08000100-04150402.png", 
-      "name": "Inkling - Yellow", 
-      "release": {
-        "au": "2022-11-11", 
-        "eu": "2022-11-11", 
-        "jp": "2022-11-11", 
-        "na": "2022-11-11"
-      }, 
-      "tail": "04150402", 
       "type": "Figure"
     }, 
     {
@@ -9665,7 +9665,7 @@
       "type": "Figure"
     }, 
     {
-      "amiiboSeries": "Splatoon", 
+      "amiiboSeries": "Splatoon 2", 
       "character": "Inkling", 
       "gameSeries": "Splatoon", 
       "head": "08000200", 
@@ -9713,7 +9713,7 @@
       "type": "Figure"
     }, 
     {
-      "amiiboSeries": "Splatoon", 
+      "amiiboSeries": "Splatoon 2", 
       "character": "Inkling", 
       "gameSeries": "Splatoon", 
       "head": "08000300", 
@@ -9761,7 +9761,7 @@
       "type": "Figure"
     }, 
     {
-      "amiiboSeries": "Splatoon", 
+      "amiiboSeries": "Splatoon 2", 
       "character": "Pearl", 
       "gameSeries": "Splatoon", 
       "head": "08030000", 
@@ -9777,7 +9777,7 @@
       "type": "Figure"
     }, 
     {
-      "amiiboSeries": "Splatoon", 
+      "amiiboSeries": "Splatoon 2", 
       "character": "Marina", 
       "gameSeries": "Splatoon", 
       "head": "08040000", 
@@ -9793,7 +9793,7 @@
       "type": "Figure"
     }, 
     {
-      "amiiboSeries": "Splatoon", 
+      "amiiboSeries": "Splatoon 2", 
       "character": "Octoling", 
       "gameSeries": "Splatoon", 
       "head": "08050100", 
@@ -9809,7 +9809,7 @@
       "type": "Figure"
     }, 
     {
-      "amiiboSeries": "Splatoon", 
+      "amiiboSeries": "Splatoon 2", 
       "character": "Octoling", 
       "gameSeries": "Splatoon", 
       "head": "08050200", 
@@ -9825,23 +9825,7 @@
       "type": "Figure"
     }, 
     {
-      "amiiboSeries": "Splatoon", 
-      "character": "Octoling", 
-      "gameSeries": "Splatoon", 
-      "head": "08050200", 
-      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08050200-041b0402.png", 
-      "name": "Octoling - Blue", 
-      "release": {
-        "au": "2022-11-11", 
-        "eu": "2022-11-11", 
-        "jp": "2022-11-11", 
-        "na": "2022-11-11"
-      }, 
-      "tail": "041b0402", 
-      "type": "Figure"
-    }, 
-    {
-      "amiiboSeries": "Splatoon", 
+      "amiiboSeries": "Splatoon 2", 
       "character": "Octoling", 
       "gameSeries": "Splatoon", 
       "head": "08050300", 
@@ -9857,11 +9841,43 @@
       "type": "Figure"
     }, 
     {
-      "amiiboSeries": "Splatoon", 
+      "amiiboSeries": "Splatoon 3", 
+      "character": "Inkling", 
+      "gameSeries": "Splatoon", 
+      "head": "08000100", 
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_08000100-04150402.png", 
+      "name": "Inkling - Yellow", 
+      "release": {
+        "au": "2022-11-11", 
+        "eu": "2022-11-11", 
+        "jp": "2022-11-11", 
+        "na": "2022-11-11"
+      }, 
+      "tail": "04150402", 
+      "type": "Figure"
+    },
+    {
+      "amiiboSeries": "Splatoon 3", 
+      "character": "Octoling", 
+      "gameSeries": "Splatoon", 
+      "head": "08050200", 
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_08050200-041b0402.png", 
+      "name": "Octoling - Blue", 
+      "release": {
+        "au": "2022-11-11", 
+        "eu": "2022-11-11", 
+        "jp": "2022-11-11", 
+        "na": "2022-11-11"
+      }, 
+      "tail": "041b0402", 
+      "type": "Figure"
+    },
+    {
+      "amiiboSeries": "Splatoon 3", 
       "character": "Smallfry", 
       "gameSeries": "Splatoon", 
       "head": "08060100", 
-      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_08060100-041c0402.png", 
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_08060100-041c0402.png", 
       "name": "Smallfry", 
       "release": {
         "au": "2022-11-11", 
@@ -9871,7 +9887,7 @@
       }, 
       "tail": "041c0402", 
       "type": "Figure"
-    }, 
+    },
     {
       "amiiboSeries": "Mario Sports Superstars", 
       "character": "Mario", 
@@ -12543,13 +12559,13 @@
       }, 
       "tail": "03781402", 
       "type": "Figure"
-    }, 
+    },
     {
       "amiiboSeries": "Super Smash Bros.", 
-      "character": "Kazuya", 
-      "gameSeries": null, 
+      "character": "Kazuya Mishima", 
+      "gameSeries": "Tekken", 
       "head": "33c00000", 
-      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_33c00000-04200002.png", 
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_33c00000-04200002.png", 
       "name": "Kazuya", 
       "release": {
         "au": "2023-01-13", 
@@ -12991,13 +13007,13 @@
       }, 
       "tail": "03620002", 
       "type": "Figure"
-    }, 
+    },
     {
       "amiiboSeries": "Super Smash Bros.", 
       "character": "Sephiroth", 
       "gameSeries": "Final Fantasy", 
       "head": "36010000", 
-      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_36010000-04210002.png", 
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_36010000-04210002.png", 
       "name": "Sephiroth", 
       "release": {
         "au": "2023-01-13", 
@@ -13007,7 +13023,7 @@
       }, 
       "tail": "04210002", 
       "type": "Figure"
-    }, 
+    },
     {
       "amiiboSeries": "Super Smash Bros.", 
       "character": "Hero", 
