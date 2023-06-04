@@ -1,6 +1,10 @@
 .well.well-sm.slot
   .slot-title=slot + 1
   .slot-summary
+    if uid
+      div
+        b="UID: "
+        span=uid
     if id
       div
         b="ID: "
@@ -23,7 +27,7 @@
         span=type
     if image 
       div 
-        //img(src=image)
+        img(src=image, style="max-height: 150")
     
     ul.slot-links
       li: a.slot-download-link(href='#') Download
