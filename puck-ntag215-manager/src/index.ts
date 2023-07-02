@@ -92,7 +92,8 @@ $(() => {
   }
 
   function getSlotElement(slot: number, summary: Uint8Array): JQuery<HTMLElement> {
-    const id = array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
+    //const id = array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
+    const id = array2hex(summary.slice(38, 42)) + array2hex(summary.slice(42, 46));
     var name = "Unknown";
     var gameseries = "Unknown";
     var amiiboseries = "Unknown";
@@ -112,7 +113,7 @@ $(() => {
     }
     const element = $(slotTemplate({
       slot,
-      uid: array2hex(summary.slice(0, 8)),
+     // uid: array2hex(summary.slice(0, 8)),
       id: id,
       name: name,
       gameseries: gameseries,
