@@ -9,8 +9,6 @@ import { EspruinoBoards, SecureDfuUpdate, SecureDfuUpdateMessage, SecureDfuUpdat
 import * as EspruinoHelper from "./espruino"
 import { ModalMessageType, modalMessages } from "./modalMessages"
 import { selectText, selectThis } from "./selectText"
-import amiibo from "../amiibo.json"
-import { isPlainObject } from "jquery"
 
 const toArrayBuffer = require("arraybuffer-loader/lib/to-array-buffer.js")
 const slotTemplate = require("./templates/slot.pug")
@@ -18,11 +16,6 @@ const boardTemplate = require("./templates/board-selector.pug")
 
 const anyWindow = (window as any)
 const puck = anyWindow.puck = new Puck(console.log, console.warn, console.error)
-
-interface Amiibo {
-  name: string
-}
-
 
 $(() => {
   const mainContainer = $("#mainContainer")
@@ -40,7 +33,7 @@ $(() => {
 
   if (__DEVELOPMENT__) {
     anyWindow.debug = {
-      ...(anyWindow.debug || {}),
+      ...(anyWindow.debug || { }),
       ...{
         EspruinoHelper,
         hardwareChooser,
@@ -93,33 +86,9 @@ $(() => {
   }
 
   function getSlotElement(slot: number, summary: Uint8Array): JQuery<HTMLElement> {
-    const id = array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
-    var name = "Unknown";
-    var gameseries = "Unknown";
-    var amiiboseries = "Unknown";
-    var type = "Unknown";
-    var image = "";
-    if (id != "000000000000000") {
-      Object.entries(amiibo.amiibo).forEach(([key, value]) => {
-        if (value.head + value.tail == id) {
-          name = value.name;
-          gameseries = value.gameSeries;
-          amiiboseries = value.amiiboSeries;
-          type = value.type;
-          image = value.image;
-          return;
-        }
-      })
-    }
     const element = $(slotTemplate({
       slot,
-      //uid: array2hex(summary.slice(0, 8)),
-      id: id,
-      name: name,
-      gameseries: gameseries,
-      amiiboseries: amiiboseries,
-      type: type,
-      image: image
+      uid: array2hex(summary.slice(0, 8))
     }))
 
     element.find("a.slot-download-link").on("click", async (e) => {
@@ -133,7 +102,7 @@ $(() => {
         })
         const data = await puck.readSlot(slot)
         await hideModal()
-        saveData(data, `${name}.bin`)
+        saveData(data, `slot${slot}.bin`)
       } catch (error) {
         await showModal({
           title: "Error",
@@ -199,6 +168,12 @@ $(() => {
       })
 
       if (puck.isConnected) {
+        if (puck.isUart) {
+          $("#puckUart").hide()
+        } else {
+          $("#puckUart").show()
+        }
+
         await populateSlots()
 
         mainContainer.addClass("connected")
