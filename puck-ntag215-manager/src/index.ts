@@ -112,7 +112,7 @@ $(() => {
     }
     const element = $(slotTemplate({
       slot,
-      //uid: array2hex(summary.slice(0, 8)),
+      uid: array2hex(summary.slice(0, 8)),
       id: id,
       name: name,
       gameseries: gameseries,
