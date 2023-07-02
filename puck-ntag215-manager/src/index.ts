@@ -93,7 +93,7 @@ $(() => {
 
   function getSlotElement(slot: number, summary: Uint8Array): JQuery<HTMLElement> {
     //const id = array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
-    const id = array2hex(summary.slice(41, 45)) + array2hex(summary.slice(45, 49));
+    const id = array2hex(summary.slice(40, 44)) + array2hex(summary.slice(44, 48));
     var name = "Unknown";
     var gameseries = "Unknown";
     var amiiboseries = "Unknown";
