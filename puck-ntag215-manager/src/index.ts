@@ -119,7 +119,8 @@ $(() => {
       amiiboseries: amiiboseries,
       type: type,
       image: image
-
+    }))
+    
     element.find("a.slot-download-link").on("click", async (e) => {
       e.preventDefault()
 
