@@ -9888,6 +9888,54 @@
       "tail": "041c0402", 
       "type": "Figure"
     },
+      {
+      "amiiboSeries": "Splatoon 3", 
+      "character": "Shive", 
+      "gameSeries": "Splatoon", 
+      "head": "08070000", 
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_08070000-04330402.png", 
+      "name": "Shive", 
+      "release": {
+        "au": "2023-11-17", 
+        "eu": "2023-11-17", 
+        "jp": "2023-11-17", 
+        "na": "2023-11-17"
+      }, 
+      "tail": "04330402", 
+      "type": "Figure"
+    },
+      {
+      "amiiboSeries": "Splatoon 3", 
+      "character": "Frye", 
+      "gameSeries": "Splatoon", 
+      "head": "08080000", 
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_08080000-04340402.png", 
+      "name": "Frye", 
+      "release": {
+        "au": "2023-11-17", 
+        "eu": "2023-11-17", 
+        "jp": "2023-11-17", 
+        "na": "2023-11-17"
+      }, 
+      "tail": "04340402", 
+      "type": "Figure"
+    },
+      {
+      "amiiboSeries": "Splatoon 3", 
+      "character": "Big Man", 
+      "gameSeries": "Splatoon", 
+      "head": "08090000", 
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_08090000-04350402.png", 
+      "name": "Big Man", 
+      "release": {
+        "au": "2023-11-17", 
+        "eu": "2023-11-17", 
+        "jp": "2023-11-17", 
+        "na": "2023-11-17"
+      }, 
+      "tail": "04350402", 
+      "type": "Figure"
+    },
     {
       "amiiboSeries": "Mario Sports Superstars", 
       "character": "Mario", 
@@ -13406,6 +13454,22 @@
         "na": "2022-09-09"
       }, 
       "tail": "04230002", 
+      "type": "Figure"
+    },
+    {
+      "amiiboSeries": "Super Smash Bros.", 
+      "character": "Sora", 
+      "gameSeries": "Kingdom Hearts", 
+      "head": "3f000000", 
+      "image": "https://raw.githubusercontent.com/8bitDream/AmiiboAPI/render/images/icon_3f000000-042e0002.png", 
+      "name": "Sora", 
+      "release": {
+        "au": "2024-02-16", 
+        "eu": "2024-02-16", 
+        "jp": "2024-02-16", 
+        "na": "2024-02-16"
+      }, 
+      "tail": "042e0002", 
       "type": "Figure"
     }
   ]
